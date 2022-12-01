@@ -8,7 +8,7 @@ homepage = "https://github.com/abdelhamidbakhta/adventofcode-rs"
 repository = "https://github.com/abdelhamidbakhta/adventofcode-rs"
 readme = "./README.md"
 license = "MIT"
-default-run = "day01"
+default-run = "day01-1"
 
 [dependencies]
 eyre = "0.6.8"

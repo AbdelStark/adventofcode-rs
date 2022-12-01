@@ -13,15 +13,15 @@ This repository contains my solutions to the [Advent of Code 2022](https://adven
 To run a solution, use the following command:
 
 ```bash
-cargo run --release --bin dayXX
+cargo run --release --bin dayXX-Y
 ```
 
-where `XX` is the day number.
+where `XX` is the day number and `Y` is the part number.
 
-For example, to run the solution for day 1, use the following command:
+For example, to run the solution for day 1 part 2, use the following command:
 
 ```bash
-cargo run --release --bin day01
+cargo run --release --bin day01-2
 ```
 
 ## License

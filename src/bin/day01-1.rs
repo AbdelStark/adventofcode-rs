@@ -26,7 +26,7 @@ fn main() -> Result<()> {
         }
         // If the line is not empty, we are still processing the same elve
         else {
-            let calories = line.parse::<i32>()?;
+            let calories = line.parse::<u32>()?;
             last_processed_elve_cumulative_calories += calories;
         }
     }
