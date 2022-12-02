@@ -24,6 +24,12 @@ For example, to run the solution for day 1 part 2, use the following command:
 cargo run --release --bin day01-2
 ```
 
+You can configure the log level by setting the `RUST_LOG` environment variable. For example, to run the solution for day 1 part 2 with debug logging, use the following command:
+
+```bash
+RUST_LOG=debug cargo run --release --bin day01-2
+```
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

@@ -11,4 +11,6 @@ license = "MIT"
 default-run = "day01-1"
 
 [dependencies]
+env_logger = "0.10.0"
 eyre = "0.6.8"
+log = "0.4.17"

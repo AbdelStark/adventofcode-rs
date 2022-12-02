@@ -1,5 +1,3 @@
-//! Helper functions for the advent of code 2022
-
 use std::{
     fs::File,
     io::{self, BufRead},
