@@ -30,6 +30,22 @@ You can configure the log level by setting the `RUST_LOG` environment variable. 
 RUST_LOG=debug cargo run --release --bin day01-2
 ```
 
+## Test coverage
+
+For code coverage, I'm using [cargo-llvm-cov](https://lib.rs/crates/cargo-llvm-cov).
+
+To install `cargo-llvm-cov`, run the following command:
+
+```bash
+cargo +stable install cargo-llvm-cov
+```
+
+To generate a coverage report and open it in the default browser, use the following command:
+
+```bash
+cargo llvm-cov --open
+```
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

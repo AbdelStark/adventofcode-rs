@@ -197,3 +197,17 @@ impl FromStr for Strategy {
     // The error type is eyre::Error
     type Err = eyre::Error;
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn find_move_to_match_strategy_should_work() {
+        let opponent_move = Move::Rock;
+        let strategy = Strategy::Lose;
+        let expected_move = Move::Scissors;
+        let actual_move = find_move_to_match_strategy(&opponent_move, &strategy);
+        assert_eq!(actual_move, expected_move);
+    }
+}
